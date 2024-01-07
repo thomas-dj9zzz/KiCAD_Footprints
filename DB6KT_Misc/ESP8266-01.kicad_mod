@@ -1,0 +1,86 @@
+(footprint "ESP8266-01" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61FA74BE)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 3.81 -8.501 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3e3d55c8-e0ea-48fb-8421-a84b7cb7055b)
+  )
+  (fp_text value "ESP8266-01" (at 3.81 -7.001 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 725cdf26-4b92-46db-bca9-10d930002dda)
+  )
+  (fp_text user "Antenne" (at 3.81 -14.478 unlocked) (layer "Dwgs.User")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c40d36bb-2efa-4bc3-859b-223faaa66f3e)
+  )
+  (fp_text user "${REFERENCE}" (at 3.81 -5.501 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 083becc8-e25d-4206-9636-55457650bbe3)
+  )
+  (fp_line (start -3.81 -13.716) (end 11.176 -13.716) (layer "F.SilkS") (width 0.254) (tstamp dc7523a5-4408-4a51-bc92-6a47a538c094))
+  (fp_rect (start -3.81 -20.828) (end 11.176 4.318) (layer "F.SilkS") (width 0.254) (fill none) (tstamp e04b8c10-725b-4bde-8cbf-66bfea5053e6))
+  (fp_line (start 1.27 -19.05) (end 2.54 -19.05) (layer "Dwgs.User") (width 0.12) (tstamp 00627221-b0fd-448e-b5a6-250d249697c2))
+  (fp_line (start 5.08 -15.24) (end 6.35 -15.24) (layer "Dwgs.User") (width 0.12) (tstamp 00c9c1c9-df78-4bf8-a378-9edee7dafbe3))
+  (fp_line (start 5.08 -19.05) (end 5.08 -15.24) (layer "Dwgs.User") (width 0.12) (tstamp 217a6ab0-8c75-4e09-8113-c7b7b906da43))
+  (fp_line (start -1.27 -19.05) (end 0 -19.05) (layer "Dwgs.User") (width 0.12) (tstamp 226f524c-89b4-46ed-86fd-c8ea41059fd4))
+  (fp_line (start 1.27 -15.24) (end 1.27 -19.05) (layer "Dwgs.User") (width 0.12) (tstamp 31b8e579-7afa-4dee-9f20-b2fefaae3c16))
+  (fp_line (start 6.35 -15.24) (end 6.35 -19.05) (layer "Dwgs.User") (width 0.12) (tstamp 782e74f8-8e76-4e6f-bfec-df9b9d96b19d))
+  (fp_line (start 3.81 -15.24) (end 3.81 -19.05) (layer "Dwgs.User") (width 0.12) (tstamp 7b8f4734-c91c-4c35-bc25-8ba9e0a60f64))
+  (fp_line (start 3.81 -19.05) (end 5.08 -19.05) (layer "Dwgs.User") (width 0.12) (tstamp 99162744-5eac-427e-9957-877587056aee))
+  (fp_line (start 0 -15.24) (end 1.27 -15.24) (layer "Dwgs.User") (width 0.12) (tstamp 9ad8e352-005c-4299-8beb-56f3b58c96b7))
+  (fp_line (start 2.54 -19.05) (end 2.54 -15.24) (layer "Dwgs.User") (width 0.12) (tstamp 9cab0c4e-2726-433f-a46f-c25156ae2489))
+  (fp_line (start -1.27 -13.97) (end -1.27 -19.05) (layer "Dwgs.User") (width 0.12) (tstamp a067c43d-047d-48ca-a682-5bbb620e3988))
+  (fp_line (start 6.35 -19.05) (end 7.62 -19.05) (layer "Dwgs.User") (width 0.12) (tstamp a60f8360-f38f-439d-b446-391101ae4282))
+  (fp_line (start 0 -19.05) (end 0 -15.24) (layer "Dwgs.User") (width 0.12) (tstamp a67b97a6-51fd-4a32-8231-3fd10436b6ab))
+  (fp_line (start 7.62 -15.24) (end 8.89 -15.24) (layer "Dwgs.User") (width 0.12) (tstamp b7340f23-0eaa-48ae-aea8-b5b53a0ae99a))
+  (fp_line (start 8.89 -15.24) (end 8.89 -19.05) (layer "Dwgs.User") (width 0.12) (tstamp b79d8d99-88b5-4d84-a010-b6d768d67ec8))
+  (fp_line (start 2.54 -15.24) (end 3.81 -15.24) (layer "Dwgs.User") (width 0.12) (tstamp f8e927af-4836-4b0f-8a57-dbca5a18a442))
+  (fp_line (start 7.62 -19.05) (end 7.62 -15.24) (layer "Dwgs.User") (width 0.12) (tstamp fa16f237-4e21-4b18-8c54-f7de4e62bbb6))
+  (fp_rect (start -3.81 -20.828) (end 11.176 4.318) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp fcfb3f77-487d-44de-bd4e-948fbeca3220))
+  (fp_rect (start -3.81 -20.828) (end 11.176 4.318) (layer "F.Fab") (width 0.1) (fill none) (tstamp d1441985-7b63-4bf8-a06d-c70da2e3b78b))
+  (pad "1" thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 720ec55a-7c69-4064-b792-ef3dbba4eab9))
+  (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 18d3014d-7089-41b5-ab03-53cc0a265580))
+  (pad "3" thru_hole circle (at 5.08 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 77aa6db5-9b8d-4983-b88e-30fe5af25975))
+  (pad "4" thru_hole circle (at 7.62 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 3579cf2f-29b0-46b6-a07d-483fb5586322))
+  (pad "5" thru_hole circle (at 0 2.54) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp fb9a832c-737d-49fb-bbb4-29a0ba3e8178))
+  (pad "6" thru_hole circle (at 2.54 2.54) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 2026567f-be64-41dd-8011-b0897ba0ff2e))
+  (pad "7" thru_hole circle (at 5.08 2.54) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 49d97c73-e37a-4154-9d0a-88037e40cc11))
+  (pad "8" thru_hole circle (at 7.62 2.54) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 3198b8ca-7d11-4e0c-89a4-c173f9fcf724))
+  (zone (net 0) (net_name "") (layers *.Cu) (tstamp 3e759481-bd1e-43d1-a516-704165a0cc70) (name "Antenne") (hatch edge 0.508)
+    (connect_pads (clearance 0))
+    (min_thickness 0.254)
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 10.922 -13.462)
+        (xy -3.81 -13.462)
+        (xy -3.81 -20.574)
+        (xy 10.922 -20.574)
+      )
+    )
+  )
+  (group "Antenne" (id 90dda447-2750-402e-9a9e-df264b0c0bc9)
+    (members
+      00627221-b0fd-448e-b5a6-250d249697c2
+      00c9c1c9-df78-4bf8-a378-9edee7dafbe3
+      217a6ab0-8c75-4e09-8113-c7b7b906da43
+      226f524c-89b4-46ed-86fd-c8ea41059fd4
+      31b8e579-7afa-4dee-9f20-b2fefaae3c16
+      782e74f8-8e76-4e6f-bfec-df9b9d96b19d
+      7b8f4734-c91c-4c35-bc25-8ba9e0a60f64
+      99162744-5eac-427e-9957-877587056aee
+      9ad8e352-005c-4299-8beb-56f3b58c96b7
+      9cab0c4e-2726-433f-a46f-c25156ae2489
+      a067c43d-047d-48ca-a682-5bbb620e3988
+      a60f8360-f38f-439d-b446-391101ae4282
+      a67b97a6-51fd-4a32-8231-3fd10436b6ab
+      b7340f23-0eaa-48ae-aea8-b5b53a0ae99a
+      b79d8d99-88b5-4d84-a010-b6d768d67ec8
+      c40d36bb-2efa-4bc3-859b-223faaa66f3e
+      f8e927af-4836-4b0f-8a57-dbca5a18a442
+      fa16f237-4e21-4b18-8c54-f7de4e62bbb6
+    )
+  )
+)
